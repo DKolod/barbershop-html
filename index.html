@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,27 +29,31 @@
 
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a class="header-logo" href="">
-          <img src="./images/logo.svg" alt="logo" />
-        </a>
-        <ul class="list header-list">
-          <li class="header-item">
-            <a class="link header-link" href="">Про нас</a>
-          </li>
-          <li class="header-item">
-            <a class="link header-link" href="">Послуги та ціни</a>
-          </li>
-          <li class="header-item">
-            <a class="link header-link" href="">Майстри</a>
-          </li>
-          <li class="header-item">
-            <a class="link header-link" href="">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="header-tel link" href="tel:+380952185511">+380952185511</a>
-      <button type="button">Онлайн запис</button>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="">
+            <img src="./images/logo.svg" alt="logo" />
+          </a>
+          <ul class="list header-list">
+            <li class="header-item">
+              <a class="link header-link" href="">Про нас</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="">Послуги та ціни</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="">Майстри</a>
+            </li>
+            <li class="header-item">
+              <a class="link header-link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-connect">
+          <a class="header-tel link" href="tel:+380952185511">+380952185511</a>
+          <button class="header-btn btn" type="button">Онлайн запис</button>
+        </div>
+      </div>
     </header>
     <!-- cекция main -->
     <main>

@@ -8,6 +8,27 @@
   --main-btn-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
 body {
   font-family: "Open sans", sans-serif;
 }
@@ -31,6 +52,27 @@ body {
 }
 .header {
   background-color: #555555;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-logo {
+  margin-right: 70px;
+}
+
+.header-list {
+  display: flex;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-connect {
+  margin-left: auto;
 }
 
 .header-link {
@@ -39,6 +81,9 @@ body {
   line-height: 1.33;
   letter-spacing: 0.1em;
   color: var(--main-title-color);
+}
+.header-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header-link:hover,
@@ -60,6 +105,20 @@ body {
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-left: 40px;
+}
+.btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+  min-width: 160px;
+  min-height: 50px;
+  border-radius: 25px;
+  border: 1px solid #ff6c00;
+  background-color: transparent;
 }
 
 /* -------------hero----------------------- */
