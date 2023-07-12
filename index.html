@@ -24,6 +24,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="js/modal.js" defer></script>
     <title>Document</title>
   </head>
 
@@ -51,7 +52,9 @@
         </nav>
         <div class="header-connect">
           <a class="header-tel link" href="tel:+380952185511">+380952185511</a>
-          <button class="header-btn btn" type="button">Онлайн запис</button>
+          <button class="header-btn btn" type="button" data-modal-open>
+            Онлайн запис
+          </button>
         </div>
       </div>
     </header>
@@ -439,5 +442,10 @@
         </li>
       </ul>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>✖</button>
+      </div>
+    </div>
   </body>
 </html>
