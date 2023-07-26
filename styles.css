@@ -388,9 +388,6 @@ body {
   margin: 0 auto;
   transition: color 500ms linear, backgroung-color 300ms linear;
 }
-.prices-btn:hover {
-  .prices-btn;
-}
 
 /* ---------------reasons---------------- */
 
