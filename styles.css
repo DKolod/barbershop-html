@@ -129,7 +129,7 @@ body {
   border-radius: 25px;
   border: 1px solid #ff6c00;
   background-color: transparent;
-  transition: color 300ms linear, backgroung-color 300ms linear;
+  transition: color 500ms linear, backgroung-color 300ms linear;
 }
 
 .btn:hover,
@@ -386,6 +386,10 @@ body {
   color: #ffffff;
   display: block;
   margin: 0 auto;
+  transition: color 500ms linear, backgroung-color 300ms linear;
+}
+.prices-btn:hover {
+  .prices-btn;
 }
 
 /* ---------------reasons---------------- */
